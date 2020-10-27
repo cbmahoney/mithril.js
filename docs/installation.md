@@ -55,7 +55,7 @@ $ npm install webpack webpack-cli --save-dev
 {
 	"...": "...",
 	"scripts": {
-		"start": "webpack src/index.js --output bin/app.js -d --watch"
+		"start": "webpack src/index.js --output bin/app.js -d source-map --watch"
 	}
 }
 ```
